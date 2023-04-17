@@ -1,0 +1,8 @@
+APRENDENDO PYTHON
+
+    print - Imprimir na tela a informação. (ESCREVA ou PRINTF)
+    input - Recebe a informação (LEIA ou SCANF)
+
+    Variáveis:
+        Para cadeia ou caracter pode usar ("") ou ('')
+        
