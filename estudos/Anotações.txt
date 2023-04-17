@@ -4,5 +4,29 @@ APRENDENDO PYTHON
     input - Recebe a informação (LEIA ou SCANF)
 
     Variáveis:
-        Para cadeia ou caracter pode usar ("") ou ('')
+        Para cadeia ou caracter pode usar ("") ou ('') - Não há diferença.
         
+        Para implementar o nome no print basecamente utiliza-se a, {}, chaves. exemplo.
+           _______________________________________________________________
+          |  nome = input('Informe um nome')                              |
+          |  print('O nome digitado é {}, não é verdade?'.format(nome))   |
+          |_______________________________________________________________|
+        
+        A chaves {} - Equivale a chamada de variável - Na linguagem C usamos %, porcentagem + o caracter do tipo desta variável.
+        Já o  .format(nome) - É o valor da variável já inserida, ou seja o que está armazenado. 
+__________________________________________________________________________________________________________________________________
+
+    Tipos primitivos
+
+        int - Números para tratar a variável como um número inteiro é necessário incrementar o int. Exemplo:
+
+            num1 = int(input("Digite um número para realizar a soma: "))
+        
+        Faz com que a variável "num1" deixe de ser string (Padrão) para ser um número inteiro.
+
+        A mesma ideia vale para os outros tipos que são;
+
+        int         -       Inteiros
+        float       -       real
+        bool        -       booleano (True - False)
+        str         -       string (Cadeia, utiliza-se entre "" ou '')
